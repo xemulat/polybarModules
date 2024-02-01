@@ -24,3 +24,15 @@ exec = /your/path/to/timeuntilclass.py
 ```
 2. Edit the timeUntilClass.py file to reflest the starting and ending of your classes.
 3. Add timeuntilclass into your modules config.
+
+## ZTMBusTracker
+0. Displays the time (in minutes and seconds) till the arrival of a ZTM bus.
+1. Polybar config.ini
+```
+[module/ztmbustracker]
+type = custom/script
+interval = 0.75
+exec = /your/path/to/ztmbustracker.py
+```
+2. Edit the ZTMBusTracker.py file to reflect your bus's timetable (take them from [here](https://www.ztm.poznan.pl/pl/rozklad-jazdy)). This might work for trams, but it's untested.
+3. Add ztmbustracker into your modules config.
