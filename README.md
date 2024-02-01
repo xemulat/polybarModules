@@ -8,6 +8,8 @@
 [module/openmeteobar]
 type = custom/script
 interval = 480
-exec = /your/path/to/openmeteobar.py
+exec = /your/path/to/openMeteoBar.py
 ```
-2. Edit the file and fill out your coordinates
+2. Edit the openMeteoBar.py file and fill out your coordinates in the line 16 and 17.
+3. Add openmeteobar into your modules config.
+
